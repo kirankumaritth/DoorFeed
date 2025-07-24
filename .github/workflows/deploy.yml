@@ -1,4 +1,4 @@
-name: Deploy DoorFeed Web App
+name: Deploy DoorFeed Web App.
 
 on:
   push:
