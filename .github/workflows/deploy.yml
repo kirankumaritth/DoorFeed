@@ -1,9 +1,9 @@
-name: Deploy DoorFeed Web App (90-Min)
+name: Deploy DoorFeed Web App
 
 on:
   push:
     branches:
-      - main  # You can change this to staging if needed
+      - master  # You can change this to staging if needed
 
 jobs:
   deploy:
