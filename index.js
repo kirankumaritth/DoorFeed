@@ -10,15 +10,15 @@ const server = http.createServer((req, res) => {
 
   // Success message for DoorFeed CI/CD deployment
   res.end(`
-🚀 CI/CD Pipeline Deployment Successful!
+CI/CD Pipeline Deployment Successful!
 
-🎯 Application: DoorFeed Web App
-🔧 Environment: Staging
-📦 Deployment Type: ECS Fargate via GitHub Actions
-✅ Status: Running & Healthy
+Application: DoorFeed Web App
+Environment: Staging
+Deployment Type: ECS Fargate via GitHub Actions
+Status: Running & Healthy
 
 Thank you for reviewing this CI/CD assessment submission.
-— Deployed with ❤️ using GitHub Actions + AWS ECS
+— Deployed with using GitHub Actions + AWS ECS
   `);
 });
 
